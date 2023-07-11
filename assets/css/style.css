@@ -1777,7 +1777,7 @@ p {
 .footer-eleven {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: var(--white);
+  background-color: var(--primary);
   position: relative;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -1820,7 +1820,7 @@ p {
   margin-top: 20px;
 }
 .footer-eleven .f-about .copyright-text {
-  color: var(--dark-3);
+  color: var(--white);
   margin-top: 40px;
 }
 .footer-eleven .f-about .copyright-text span {
