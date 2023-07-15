@@ -1174,6 +1174,8 @@ p {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+  background-color: var(--bs-blue);
+  text-align: center;
 }
 .services-eight .single-services:hover {
   box-shadow: var(--shadow-4);
@@ -1191,9 +1193,8 @@ p {
   width: 78px;
   height: 78px;
   border-radius: 50%;
-  margin-bottom: 25px;
+  margin: auto;
   background: var(--white);
-  border: 2px solid var(--primary);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1205,6 +1206,7 @@ p {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   position: relative;
+  align-content: center;
 }
 .services-eight .single-services .service-icon::after {
   content: "";
@@ -1225,13 +1227,27 @@ p {
   border-radius: 50%;
   border: 1px solid transparent;
 }
+.services-eight .single-services .service-content h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--primary-light);
+}
 .services-eight .single-services .service-content h4 {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
+  color: var(--primary-light);
 }
 .services-eight .single-services .service-content p {
-  color: var(--dark-3);
+  color: var(--primary-light);
+}
+
+.services-eight .single-services .service-content a {
+  color: var(--primary-light);
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 20px;
 }
 
 
